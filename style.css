@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+body {
+    margin-top: 20px;
+    background-color: #FAFAFA;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.container-itens {
+    width: 350px;
+
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    background-color: #ffffff;
+    padding: 50px 30px 20px 30px;
+}
+
+.celular {
+    width: 450px;
+}
+
+.instagram-logo {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.app-install img {
+    width: 150px;
+}
+
+input {
+    width: 300px;
+    height: 38px;
+    padding: 9px;
+    padding-left: 5px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    margin-top: 10px;
+    color: #262626;
+
+}
+
+button {
+    
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    height: 36px;
+    width: 300px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 1;
+}
+
+
+.link-facebook {
+    color: #385185;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.esqueceu-a-senha {
+    margin-top: 10px;
+    color: #00376B;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.container-links {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    img {
+        cursor: pointer;
+    }
+   
+    img:active{
+       opacity: 0.7;
+    }
+}
+
+
+
+.cadastre-se {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 70px;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    background-color: #ffffff;
+    padding: 15px;
+
+    width: 350px;
+
+    a {
+        color: #0095F6;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+
+}
+
+.imagem-do-celular{
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 26px;
+    transition: opacity 2s ease-in-out;
+    
+}
+
+
+.container-img{
+   position: relative;
+}
